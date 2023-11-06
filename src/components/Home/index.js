@@ -1,22 +1,67 @@
 import './index.scss'
-// import LogoTitle from '../../assets/images/finalphoto.png'
+import LogoTitle from '../../assets/images/profile.png'
 import { Link } from 'react-router-dom'
+import { useEffect, useState } from 'react'
+import AnimatedLetters from '../AnimatedLetters'
 
 const Home = () => {
+  const [letterClass, setLetterClass] = useState('text-animate')
+  const nameArray = ['F', 'a', 'h', 'a', 'd']
+  const jobArray = [
+    'w',
+    'e',
+    'b',
+    ' ',
+    'd',
+    'e',
+    'v',
+    'e',
+    'l',
+    'o',
+    'p',
+    'e',
+    'r',
+    '.',
+  ]
+
+  useEffect(() => {
+    const timerId = setTimeout(() => {
+      setLetterClass('text-animate-hover')
+    }, 4000)
+
+    return () => clearTimeout(timerId)
+  }, [])
+
   return (
     <div className="container home-page">
       <div className="text-zone">
         <h1>
-          Hi, <br /> I'm Fahad
+          <span className="letterClass">H</span>
+          <span className={`${letterClass} _12`}>i,</span>
           <br />
-          web developer
+          <span className={`${letterClass} _13`}>I'</span>
+          <span className={`${letterClass} _14`}>m</span>{' '}
+          <AnimatedLetters
+            letterClass={letterClass}
+            strArray={nameArray}
+            idx={15}
+          />
+          <br />
+          <AnimatedLetters
+            letterClass={letterClass}
+            strArray={jobArray}
+            idx={22}
+          />
         </h1>
-        <h2>Frontend Developer / React Expert</h2>
+        <h2>Frontend Developer | React Expert</h2>
         <Link
           to="/contact"
           className="flat-button"
           dangerouslySetInnerHTML={{ __html: 'CONTACT ME' }}
         />
+      </div>
+      <div className="image-container">
+        <img src={LogoTitle} alt="Logo" className="profile" />
       </div>
     </div>
   )

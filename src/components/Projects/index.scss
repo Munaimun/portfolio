@@ -1,0 +1,61 @@
+.about-container {
+  display: flex;
+  height: auto;
+  overflow-y: scroll;
+  font-family: sans-serif;
+
+  .project-page {
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+    left: 20%;
+    top: 0%;
+  }
+
+  .card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    width: 90vh;
+    height: 70vh;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+
+  .list {
+    font-weight: bold;
+    ol {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+      color:cadetblue;
+      font-weight: 500;
+    }
+  }
+
+  .project-link{
+    color: yellow;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 3px;
+    padding: 5px;
+    
+  }
+  .project-link:hover{
+    color: blue;
+  }
+
+  .project-image {
+    width: 55vh;
+    height: 35vh;
+    padding: 10px;
+  }
+
+  .project-info {
+    width: 45%;
+  }
+}

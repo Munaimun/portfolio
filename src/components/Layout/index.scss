@@ -40,8 +40,8 @@
 
 .container.contact-page,
 .container.about-page,
-.container.portfolio-page {
-  
+.container.project-page {
+  display: flex;
     h1 {
       font-size: 53px;
       font-family: 'Coolvetica';
@@ -77,9 +77,16 @@
         opacity: 0.6;
       }
     }
+    li{
+      font-size: 17px;
+    }
+
+    h2{
+      font-size: 20px;
+    }
 
     p {
-      font-size: 17px;
+      font-size: 20px;
       color: #fff;
       font-family: sans-serif;
       font-weight: 500;
@@ -126,7 +133,7 @@
 
     &.contact-page,
     &.about-page,
-    &.portfolio-page {
+    &.project-page {
       .text-zone {
         position: initial;
         transform: none;
@@ -137,7 +144,7 @@
       }
     }
 
-    &.portfolio-page {
+    &.project-page {
       width: 100%;
       padding: 20px;
       box-sizing: border-box;

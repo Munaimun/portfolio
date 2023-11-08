@@ -3,6 +3,16 @@ import AnimatedLetters from '../AnimatedLetters'
 import { useState, useEffect } from 'react'
 
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+  faAngular,
+  faReact,
+  faJsSquare,
+  faHtml5,
+  faCss3,
+  faBootstrap,
+  faGitAlt,
+} from '@fortawesome/free-brands-svg-icons'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -16,32 +26,55 @@ const About = () => {
   }, [])
 
   return (
-    <div className="container about-page">
-      <div className="text-zone">
-        <h1>
-          <AnimatedLetters
-            letterClass={letterClass}
-            strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
-            idx={15}
-          />
-        </h1>
-        <p>
-          I'm an ambitious front-end developer actively seeking a position
-          within an established IT company. I am eager to contribute my skills
-          and expertise to work on challenging and diverse projects while
-          staying at the forefront of the latest technologies.
-        </p>
-        <p>
-          {' '}
-          I possess a quiet confidence, a natural curiosity, and a perpetual
-          commitment to enhancing my skills by tackling design challenges one at
-          a time.
-        </p>
-        <p>
-          {' '}
-          I prioritize family, thrive on sports excitement, find solace in
-          books, and I'm tech obsessed.
-        </p>
+    <div className="about-container my-about">
+      <div className="container about-page">
+        <div className="text-zone">
+          <h1>
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
+              idx={15}
+            />
+          </h1>
+          <ul className="skills">
+            <h2 className="skill-header">Skills:</h2>
+            <li>React</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>DOM</li>
+            <li>Tailwind</li>
+            <li>Bootstrap</li>
+          </ul>
+          <p>
+            {' '}
+            I prioritize family, thrive on sports excitement, find solace in
+            books, and I'm tech obsessed. I prioritize family, thrive on sports
+            excitement, find solace in books, and I'm tech obsessed.
+          </p>
+        </div>
+
+        <div className="stage-cube-cont">
+          <div className="cubespinner">
+            <div className="face1">
+              <FontAwesomeIcon icon={faReact} color="#5FD3F4" />
+            </div>
+            <div className="face2">
+              <FontAwesomeIcon icon={faJsSquare} color="yellow" />
+            </div>
+            <div className="face3">
+              <FontAwesomeIcon icon={faHtml5} color="orange" />
+            </div>
+            <div className="face4">
+              <FontAwesomeIcon icon={faCss3} color="#1796E6" />
+            </div>
+            <div className="face5">
+              <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+            </div>
+            <div className="face6">
+              <FontAwesomeIcon icon={faBootstrap} color="purple" />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )

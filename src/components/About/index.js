@@ -36,21 +36,22 @@ const About = () => {
               idx={15}
             />
           </h1>
-          <ul className="skills">
-            <h2 className="skill-header">Skills:</h2>
-            <li>React</li>
-            <li>JavaScript</li>
-            <li>TypeScript</li>
-            <li>DOM</li>
-            <li>Tailwind</li>
-            <li>Bootstrap</li>
-          </ul>
           <p>
             {' '}
             I prioritize family, thrive on sports excitement, find solace in
-            books, and I'm tech obsessed. I prioritize family, thrive on sports
-            excitement, find solace in books, and I'm tech obsessed.
+            books, and I'm tech obsessed.
           </p>
+          <ul className="skills">
+            <h2 className="skill-header">Skills:</h2>
+            <div className="skill-list">
+              <li>React</li>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>DOM</li>
+              <li>Tailwind</li>
+              <li>Bootstrap</li>
+            </div>
+          </ul>
         </div>
 
         <div className="stage-cube-cont">

@@ -168,3 +168,13 @@
     overflow: visible;
   }
 }
+@media screen and (max-width: 768px){
+  .bottom-tags{
+    margin-bottom: 40%;
+  }
+}
+@media screen and (max-width: 413px){
+  .bottom-tags{
+    margin-bottom: 90%;
+  }
+}

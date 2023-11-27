@@ -7,7 +7,8 @@
   color: yellow;
 }
 .skill-list{
-margin-left: 7rem;
+  margin-left: 7rem;
+  list-style: square;
 }
 
 .stage-cube-cont {
@@ -89,5 +90,21 @@ margin-left: 7rem;
     }
     83% {
       transform: rotateX(90deg);
+    }
+  }
+  @media screen and (max-width: 1200px){
+    .skills{
+      margin-left: 1%;
+    }
+    .stage-cube-cont{
+      width: 30rem;
+    }
+  }
+  @media screen and (max-width: 800px){
+    .skills{
+      margin-left: 1%;
+    }
+    .stage-cube-cont{
+      width: 0rem;
     }
   }

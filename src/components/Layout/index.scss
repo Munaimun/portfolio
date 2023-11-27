@@ -39,8 +39,8 @@
 }
 
 .container.contact-page,
-.container.about-page,
-.container.project-page {
+.container.about-page
+ {
   display: flex;
     h1 {
       font-size: 53px;
@@ -176,5 +176,15 @@
 @media screen and (max-width: 413px){
   .bottom-tags{
     margin-bottom: 90%;
+  }
+}
+@media screen and (max-width: 1200px){
+  .bottom-tags{
+    margin-bottom: 12%;
+  }
+}
+@media screen and (max-width: 400px){
+  .bottom-tags{
+    margin-bottom: 40%;
   }
 }

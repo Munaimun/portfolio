@@ -45,11 +45,12 @@ const About = () => {
             <h2 className="skill-header">Skills:</h2>
             <div className="skill-list">
               <li>React</li>
-              <li>JavaScript</li>
+              <li>JavaScript, HTML, CSS</li>
               <li>TypeScript</li>
-              <li>DOM</li>
+              <li>Git & Github</li>
               <li>Tailwind</li>
               <li>Bootstrap</li>
+              <li>C++ [Basic]</li>
             </div>
           </ul>
         </div>

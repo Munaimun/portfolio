@@ -94,21 +94,9 @@ const Sidebar = () => {
             />
           </a>
         </li>
+
         <li>
-          <a
-            href="https://www.facebook.com/kingsofmama"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <FontAwesomeIcon
-              icon={faFacebook}
-              color="#E0BD79"
-              className="anchor-icon"
-            />
-          </a>
-        </li>
-        <li>
-          <a href="mailto:munimunz@gmail.com" target="_blank">
+          <a href="mailto:munaimunz@gmail.com" target="_blank">
             <FontAwesomeIcon
               icon={faGoogle}
               color="#E0BD79"

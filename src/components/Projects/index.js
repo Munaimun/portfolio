@@ -56,7 +56,7 @@ const Projects = () => {
             </p>
             <a
               className="project-link"
-              href="https://munaimun.github.io/Quiz_js/"
+              href="https://view-finder-nine.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -1,5 +1,5 @@
 .about-container {
-  height: 70vh;
+  height: 100vh;
   overflow-y: scroll;
 }
 .contact-page{
@@ -133,8 +133,10 @@
       }
     }
   }
-  
   @media screen and (max-width: 1200px) {
+    .about-container{
+      width: 50rem;
+    }
     .map-wrap {
       float: none;
       margin: 0;

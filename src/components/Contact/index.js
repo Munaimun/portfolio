@@ -38,7 +38,6 @@ const Contact = () => {
   }
 
   return (
-    <>
       <div className="about-container">
         <div className="container contact-page">
           <div className="text-zone">
@@ -96,7 +95,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </>
+
   )
 }
 

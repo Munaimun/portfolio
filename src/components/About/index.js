@@ -5,7 +5,6 @@ import { useState, useEffect } from 'react'
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
-  faAngular,
   faReact,
   faJsSquare,
   faHtml5,
@@ -36,7 +35,7 @@ const About = () => {
               idx={15}
             />
           </h1>
-          <p>
+          <p className='my-details'>
             {' '}
             I prioritize family, thrive on sports excitement, find solace in
             books, and I'm tech obsessed.
@@ -47,6 +46,7 @@ const About = () => {
               <li>React</li>
               <li>JavaScript, HTML, CSS</li>
               <li>TypeScript</li>
+              <li>Agile Method</li>
               <li>Git & Github</li>
               <li>Tailwind</li>
               <li>Bootstrap</li>

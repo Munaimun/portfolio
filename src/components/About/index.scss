@@ -10,7 +10,6 @@
   margin-left: 7rem;
   list-style: square;
 }
-
 .stage-cube-cont {
     width: 50%;
     height: 100%;
@@ -98,6 +97,7 @@
     }
     .stage-cube-cont{
       width: 30rem;
+      margin-right: 17%;
     }
   }
   @media screen and (max-width: 800px){
@@ -107,4 +107,5 @@
     .stage-cube-cont{
       width: 0rem;
     }
+    
   }

@@ -66,7 +66,7 @@ const Contact = () => {
                   </li>
                   <li className="half">
                     <input
-                      placeholder="Email"
+                      placeholder="Your Email"
                       type="email"
                       name="email"
                       required

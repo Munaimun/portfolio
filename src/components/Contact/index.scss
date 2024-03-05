@@ -1,5 +1,5 @@
 .about-container {
-  height: 70vh; /* Adjust the height based on your preference */
+  height: 70vh;
   overflow-y: scroll;
 }
 .contact-page{
@@ -44,10 +44,10 @@
     input[type='email'] {
       width: 100%;
       border: 0;
-      background: #115173;
+      background: bisque;
       height: 50px;
       font-size: 16px;
-      color: #fff;
+      color: black;
       padding: 0 20px;
       box-sizing: border-box;
     }
@@ -55,10 +55,10 @@
     textarea {
       width: 100%;
       border: 0;
-      background: #115173;
+      background: bisque;
       height: 50px;
       font-size: 16px;
-      color: #fff;
+      color: black;
       padding: 20px;
       box-sizing: border-box;
       min-height: 150px;

@@ -39,10 +39,10 @@ const Projects = () => {
             >
               Github Source Code
             </a>
-           
-            
           </div>
-        </div>
+          </div>
+
+          
         <div className="card">
           <div>
             <img className="project-image" src={topcourses} alt="Project" />

@@ -52,11 +52,13 @@ const Contact = () => {
               I am actively seeking job opportunities. If you have any openings
               or know of relevant positions, please feel free to get in touch.
             </p>
+
             <div className="contact-form">
               <form ref={form} onSubmit={sendEmail}>
                 <ul>
                   <li className="half">
                     <input
+                    className='name'
                       placeholder="Name"
                       type="text"
                       name="name"

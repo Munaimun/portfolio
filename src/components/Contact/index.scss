@@ -148,3 +148,26 @@
       display: none;
     }
   }
+  @media screen and (max-width: 450px){
+    p{
+      width: 30rem;
+      margin-top: 15%;
+    }
+    .contact-form ul {
+      margin-left: -3%;
+      width: 30rem;
+      display: block;
+      flex-direction: column;
+      // align-items: flex-start;
+    }
+   
+    .contact-form input[type='text'],
+    .contact-form input[type='email'],
+    .contact-form textarea {
+      width: 27rem;
+    }
+    .contact-form .flat-button {
+      width: 10rem;
+      margin-right: 45%;
+    }
+  }

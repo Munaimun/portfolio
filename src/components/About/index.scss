@@ -109,3 +109,19 @@
     }
     
   }
+  @media screen and (max-width: 450px){
+    .about-page{
+      margin-top: 10%;
+    }
+    .my-details{
+      margin-left: -4%;
+      width: 30rem;
+    }
+    .skills{
+      margin-left: -13%;
+
+      .skill-list{
+        margin-left: 7%;
+      }
+    }
+  }

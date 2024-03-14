@@ -60,15 +60,23 @@
   .project-info {
     width: 90%;
   }
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 450px) {
+    .card{
+      height: 90vh;
+      margin-left: -4%;
+      width: 30rem;
+    }
     .about-container{
       overflow: scroll;
     }
     .project-image {
-      width: 90%;
+      width: 30rem;
+      margin-left: -15%;
     }
     .project-info{
+      width: 30rem;
       margin-bottom: 20%;
+      margin-left: -15%;
     }
   }
   @media screen and (max-width: 1200px){

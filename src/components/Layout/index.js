@@ -1,5 +1,5 @@
 import { Outlet } from 'react-router-dom'
-import Projects from '../Projects'
+// import Projects from '../Projects'
 import SideBar from '../Sidebar'
 import './index.scss'
 import { Helmet } from 'react-helmet'
@@ -11,7 +11,6 @@ const Layout = () => {
       <Helmet>
         <title>Munaimun Bari Fahad</title>
         <link rel="icon" type="image/png" href={favicon} sizes="16x16" />
-        {/* Additional meta tags or links if needed */}
       </Helmet>
       <SideBar />
       <div className="page">

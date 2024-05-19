@@ -6,7 +6,6 @@ import {
   faLinkedin,
   faGithub,
   faGoogle,
-  faFacebook,
 } from '@fortawesome/free-brands-svg-icons'
 import {
   faHome,
@@ -96,7 +95,7 @@ const Sidebar = () => {
         </li>
 
         <li>
-          <a href="mailto:munaimunz@gmail.com" target="_blank">
+          <a href="mailto:munaimunz@gmail.com" target="blank">
             <FontAwesomeIcon
               icon={faGoogle}
               color="#E0BD79"

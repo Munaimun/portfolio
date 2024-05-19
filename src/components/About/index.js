@@ -35,8 +35,7 @@ const About = () => {
               idx={15}
             />
           </h1>
-          <p className='my-details'>
-            {' '}
+          <p className="my-details">
             I prioritize family, thrive on sports excitement, find solace in
             books, and I'm tech obsessed.
           </p>
@@ -44,13 +43,15 @@ const About = () => {
             <h2 className="skill-header">Skills:</h2>
             <div className="skill-list">
               <li>React</li>
-              <li>JavaScript, HTML, CSS</li>
+              <li>JavaScript</li>
               <li>TypeScript</li>
+              <li>Python</li>
               <li>Agile Method</li>
               <li>Git & Github</li>
+              <li>HTML & CSS</li>
               <li>Tailwind</li>
               <li>Bootstrap</li>
-              <li>C++ [Basic]</li>
+              <li>C & C++ [Basic]</li>
             </div>
           </ul>
         </div>

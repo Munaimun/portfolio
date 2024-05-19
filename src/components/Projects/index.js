@@ -19,19 +19,35 @@ const Projects = () => {
   return (
     <div className="about-container">
       <div className="container project-page" id="container">
-      <div className="card">
+        <div className="card">
           <div>
             <img className="project-image" src={intelitalk} alt="Project" />
           </div>
           <div className="project-info">
             <h2 className="title">InteliTalk- Chatbot</h2>
             <p className="description">
-            Developed a frontend for chatbot application facilitating access to university information            
-            for students and outsiders. The project highlights a user-friendly chat interface for
-            seamless interaction and an intuitive admin panel for efficient database and student
-            list management.
+              <ul>
+                <li>
+                  Created a chatbot application that utilizes Axios to handle
+                  API requests for seamless data fetching from the backend and
+                  implements secure user authorization using JWT.
+                </li>
+                <li>
+                  A streamlined chat interface for accessing university
+                  information, complemented by an admin panel for efficient
+                  database and student list management.
+                </li>
+              </ul>
             </p>
-               <a
+            <a
+              className="project-link"
+              href="https://intelitalk.onrender.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Project
+            </a>
+            <a
               className="project-link"
               href="https://github.com/dev-saiful/InteliTalk/tree/frontend"
               target="_blank"
@@ -40,9 +56,8 @@ const Projects = () => {
               Github Source Code
             </a>
           </div>
-          </div>
+        </div>
 
-          
         <div className="card">
           <div>
             <img className="project-image" src={topcourses} alt="Project" />
@@ -56,24 +71,23 @@ const Projects = () => {
               feature, allowing users to 'like' and receive feedback on their
               preferred courses instantly.
             </p>
-            <div className='buttons'>
-            <a
-              className="project-link"
-              href="https://top-courses-eight-ecru.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              View Project
-            </a>
+            <div className="buttons">
               <a
-              className="project-link"
-              href='https://github.com/Munaimun/TopCourses'
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Github Source Code
-            </a>
-            
+                className="project-link"
+                href="https://top-courses-eight-ecru.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Project
+              </a>
+              <a
+                className="project-link"
+                href="https://github.com/Munaimun/TopCourses"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github Source Code
+              </a>
             </div>
           </div>
         </div>
@@ -116,12 +130,12 @@ const Projects = () => {
           <div className="project-info">
             <h2 className="title">Quiz App</h2>
             <p className="description">
-              Developed an interactive Quiz Application. The application enables
-              users to participate in quizzes with instant feedback, showcasing
-              a commitment to user-centric design and interactive functionality.
+              Developed a quiz application using Vanilla JS that asks questions
+              about JavaScript concepts, testing users' knowledge and providing
+              an engaging learning experience.
             </p>
 
-             <a
+            <a
               className="project-link"
               href="https://munaimun.github.io/Quiz_js/"
               target="_blank"
@@ -144,4 +158,4 @@ const Projects = () => {
   )
 }
 
-export default Projects;
+export default Projects

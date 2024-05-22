@@ -26,18 +26,11 @@ const Projects = () => {
           <div className="project-info">
             <h2 className="title">InteliTalk- Chatbot</h2>
             <p className="description">
-              <ul>
-                <li>
-                  Created a chatbot application that utilizes Axios to handle
-                  API requests for seamless data fetching from the backend and
-                  implements secure user authorization using JWT.
-                </li>
-                <li>
-                  A streamlined chat interface for accessing university
-                  information, complemented by an admin panel for efficient
-                  database and student list management.
-                </li>
-              </ul>
+              Created a chatbot application that utilizes Axios to handle API
+              requests for seamless data fetching from the backend and
+              implements secure user authorization using JWT. A streamlined chat
+              interface for accessing university information, complemented by an
+              admin panel for efficient database and student list management.
             </p>
             <a
               className="project-link"

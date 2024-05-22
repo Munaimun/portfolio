@@ -100,10 +100,13 @@
     }
   }
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 600px) {
+    .about-container{
+      overflow-y: scroll;
+    }
     .card {
       width: 90%;
-      margin: 50px 0;
+      margin: 60px 0;
     }
 
     .project-image {
